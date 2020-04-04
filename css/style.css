@@ -21,7 +21,7 @@ body {
 header {
 	width: 100%;
 	min-height: 850px;
-	background: url(../images/image-main.jpg) no-repeat 50% 0;
+	background: url(../images/image-main.webp) no-repeat 50% 0;
 	-webkit-background-size: 100% auto;
 	background-size: 100% auto;
 	border-top: 1px solid rgba(0,0,0,0);
