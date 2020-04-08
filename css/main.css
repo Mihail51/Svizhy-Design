@@ -1,0 +1,11 @@
+.modal {
+	vertical-align: top;
+	padding: 0;
+}
+.modal a.close-modal {
+	clip: rect(0 0 0 0);
+    width: 1px;
+  	height: 1px;
+  	margin: -1px;
+
+}
