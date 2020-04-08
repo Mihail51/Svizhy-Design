@@ -278,6 +278,9 @@ li >a:hover {
 .review__item:hover {
 	opacity: 1;
 }
+.review__item > a {
+	 color: #fff;
+}
 
 /* Contacts */
 
@@ -354,7 +357,19 @@ form > input {
 .social__item {
 	display: inline-block;
 	margin: 0 35px;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
 }
+.social__item > a {
+	width: 75px;
+	display: inline-block;
+	height: 75px;
+	line-height: 5;
+}
+
 
 /* Footer */
 
