@@ -281,6 +281,9 @@ li >a:hover {
 .review__item > a {
 	 color: #fff;
 }
+.vk_comments {
+	margin-top: 15px;
+}
 
 /* Contacts */
 
