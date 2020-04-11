@@ -166,7 +166,7 @@ li >a:hover {
 .logotype__slider_small, 
 .branding__slider_small, 
 .social-network__slider_small {
-	display: none;
+	display: none!important;
 }
 
 .portfolio__description {

@@ -10,6 +10,11 @@
 	.social-network__slider {
 		display: none;
 	}
+	.logotype__slider_small, 
+	.branding__slider_small, 
+	.social-network__slider_small {
+		display: initial!important;
+	}
 	.image__large {
 		position: relative;
 		width: 100%;
