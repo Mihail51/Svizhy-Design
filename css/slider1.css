@@ -208,10 +208,10 @@ input {
 		width: 320px;
 		height: 310px;
 	} 
-}
+}  /*
 @media (max-width: 768px) {
 	.portfolio__slider:hover {
 		order: initial;
 		margin-left: 0;
 	}
-}
+}  */

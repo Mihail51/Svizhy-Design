@@ -1,0 +1,24 @@
+
+@media (max-width: 576px) { 
+	.slider {
+		width: 270px;
+		margin: 0 auto;
+		overflow-x: scroll;
+	}
+	.logotype__slider, 
+	.branding__slider, 
+	.social-network__slider {
+		display: none;
+	}
+	.image__large {
+		position: relative;
+		width: 100%;
+		opacity: 10;
+	}
+	.logotype__slide, 
+	.branding__slide, 
+	.social-network__slide {
+		left: 0;
+		margin-left: 0;
+	}
+}
