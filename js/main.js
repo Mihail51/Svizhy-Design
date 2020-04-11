@@ -17,10 +17,14 @@ var wow = new WOW(
 );
 wow.init();
 
+/*
+// Вызывает слайдер
 
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel();
 });
+
+*/
 
 $('.owl-carousel').owlCarousel({
     loop:true,
@@ -38,3 +42,4 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+

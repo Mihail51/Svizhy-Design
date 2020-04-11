@@ -1,7 +1,4 @@
-/** {
-	margin: 0;
-	padding: 0;
-} */
+
 body {
 	background: #000;
 }
@@ -18,32 +15,7 @@ body {
 	justify-content: center;
 	-ms-align-items: flex-start;
 	align-items: flex-start;
-}  /* 
-.logotype__slides, #logotype__controls, #logotype__active, 
-.branding__slides, #branding__controls, #branding__active, 
-.social-network__slides, #social-network__controls, #social-network__active {
-	display: none;
-}  
-.portfolio__slider:hover .portfolio__image {
-	width: 500px;
-	height: 500px;
-	margin: 0 auto;
-}   
-.portfolio__slider .logotype__slides, 
-.portfolio__slider #logotype__controls, 
-.portfolio__slider #logotype__active, 
-.portfolio__slider .branding__slides, 
-.portfolio__slider #branding__controls, 
-.portfolio__slider #branding__active, 
-.portfolio__slider .social-network__slides, 
-.portfolio__slider #social-network__controls, 
-.portfolio__slider #social-network__active {
-	display: initial;
 } 
-
-.portfolio__slider:hover .image_small {
-	display: none;
-}  */
 .logotype__slide, 
 .branding__slide, 
 .social-network__slide {
@@ -122,32 +94,7 @@ body {
 	right: 0;
 	z-index: 100;
 	cursor: pointer;
-}  /*
-#logotype1:checked ~ #logotype__active .log__act_2, 
-#logotype2:checked ~ #logotype__active .log__act_3, 
-#logotype3:checked ~ #logotype__active .log__act_4, 
-#logotype4:checked ~ #logotype__active .log__act_5, 
-#logotype5:checked ~ #logotype__active .log__act_6, 
-#logotype6:checked ~ #logotype__active .log__act_7, 
-#logotype7:checked ~ #logotype__active .log__act_1, 
-#branding1:checked ~ #branding__active .br__act_2, 
-#branding2:checked ~ #branding__active .br__act_3, 
-#branding3:checked ~ #branding__active .br__act_4, 
-#branding4:checked ~ #branding__active .br__act_5, 
-#branding5:checked ~ #branding__active .br__act_6, 
-#branding6:checked ~ #branding__active .br__act_1, 
-#social-network1:checked ~ #social-network__active .social__act_2, 
-#social-network2:checked ~ #social-network__active .social__act_3, 
-#social-network2:checked ~ #social-network__active .social__act_3 {
-	background: url(../images/icons/angle-right-blue.png) no-repeat center right;
-	position: absolute;
-	width: 11px;
-	height: inherit;
-	display: inline-block;
-	right: 0;
-	z-index: 100;
-	cursor: pointer;
-} */
+} 
 #logotype1:checked ~ #logotype__controls .log__cont_7, 
 #logotype2:checked ~ #logotype__controls .log__cont_1, 
 #logotype3:checked ~ #logotype__controls .log__cont_2, 
@@ -172,32 +119,7 @@ body {
 	left: 0;
 	z-index: 100;
 	cursor: pointer;
-}  /*
-#logotype2:checked ~ #logotype__active .log__act_1, 
-#logotype3:checked ~ #logotype__active .log__act_2, 
-#logotype4:checked ~ #logotype__active .log__act_3, 
-#logotype5:checked ~ #logotype__active .log__act_4, 
-#logotype6:checked ~ #logotype__active .log__act_5, 
-#logotype7:checked ~ #logotype__active .log__act_6, 
-#logotype1:checked ~ #logotype__active .log__act_7, 
-#branding2:checked ~ #branding__active .br__act_1, 
-#branding3:checked ~ #branding__active .br__act_2, 
-#branding4:checked ~ #branding__active .br__act_3, 
-#branding5:checked ~ #branding__active .br__act_4, 
-#branding6:checked ~ #branding__active .br__act_5, 
-#branding1:checked ~ #branding__active .br__act_6, 
-#social-network2:checked ~ #social-network__active .social__act_1, 
-#social-network3:checked ~ #social-network__active .social__act_2, 
-#social-network3:checked ~ #social-network__active .social__act_2 {
-	background: url(../images/icons/angle-left-blue.png) no-repeat center right;
-	position: absolute;
-	width: 11px;
-	height: inherit;
-	display: inline-block;
-	left: 0;
-	z-index: 100;
-	cursor: pointer;
-} */
+} 
  
 input {
 	display: none;
@@ -208,10 +130,4 @@ input {
 		width: 320px;
 		height: 310px;
 	} 
-}  /*
-@media (max-width: 768px) {
-	.portfolio__slider:hover {
-		order: initial;
-		margin-left: 0;
-	}
-}  */
+} 
