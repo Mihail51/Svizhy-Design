@@ -175,12 +175,7 @@ li >a:hover {
 	justify-content: center;
 	-ms-align-items: flex-start;
 	align-items: flex-start;
-} /*
-.logotype__slide, 
-.branding__slide, 
-.social-network__slide {
-	width: 500px;
-}  */
+} 
 .modal {
 	width: 80%!important;
 	border-radius: 0!important;
@@ -422,11 +417,7 @@ hr {
 	}
 	.portfolio {
 		justify-content: space-around;
-	}  /*
-	.portfolio__slider:nth-child(3):hover {
-    	order: 3;
-    	margin-left: 0;
-    }  */
+	} 
 	.contact__content {
 		margin: 100px 0 70px;
 	}
@@ -494,10 +485,7 @@ hr {
 		margin-left: 20%;
 		background-color:
 		rgba(255, 255, 255, 0.6);
-	}  /*
-	.owl-carousel {
-		width: 320px!important;
-	}  */
+	} 
 	.logotype__slide, 
 	.branding__slide, 
 	.social-network__slide {
