@@ -179,6 +179,7 @@ li >a:hover {
 .modal {
 	width: 80%!important;
 	border-radius: 0!important;
+	padding: 0!important;
 }
 .logotype__slider_small, 
 .branding__slider_small, 
